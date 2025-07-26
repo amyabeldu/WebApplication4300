@@ -15,9 +15,9 @@ export default function Home() {
               <p>Handmade soaps and handmade gifts for anyone special.</p>
             </div>
               <div className="image">
-                <Image src="/images/SandlewoodSoap.webp" alt="Soap"
-                  width={1200}
-                  height={600}
+                <Image src="/WebApplication4300/images/SandlewoodSoap.webp" alt="Soap"
+                  width={100}
+                  height={8}
                   layout="responsive"
                 />
               </div>
@@ -26,15 +26,27 @@ export default function Home() {
 
         <aside className="sidebar">
           <div className="product-card">
-            <img src="/images/cowboy_soap.webp" alt="Handmade Soaps"/>
+            <Image src="/WebApplication4300/images/cowboy_soap.webp" alt="Handmade Soaps"
+                 width={100}
+                 height={10}
+                 layout="responsive"
+            />
             <p>Handmade Soaps</p>
           </div>
           <div className="product-card">
-            <img src="/images/beard_oil.webp" alt="Beard Oil"/>
+            <Image src="/WebApplication4300/images/beard_oil.webp" alt="Beard Oil"
+                   width={100}
+                   height={10}
+                   layout="responsive"
+            />
             <p>Beard Oil</p>
           </div>
           <div className="product-card">
-            <img src="/images/Necklace.webp" alt="Wire Wrapped Necklace"/>
+            <Image src="/WebApplication4300/images/Necklace.webp" alt="Wire Wrapped Necklace"
+                 width={100}
+                 height={10}
+                 layout="responsive"
+            />
             <p>Wire Wrapped Necklaces</p>
           </div>
         </aside>

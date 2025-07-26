@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  basePath:'/WebApplication4300'
+};
 
 export default nextConfig;
