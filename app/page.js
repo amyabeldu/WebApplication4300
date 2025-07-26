@@ -14,10 +14,14 @@ export default function Home() {
               <h1>Amy’s Endeavors</h1>
               <p>Handmade soaps and handmade gifts for anyone special.</p>
             </div>
-            <div className="image">
-              <img src="/images/SandlewoodSoap.webp" alt="Soap"/>
+              <div className="image">
+                <Image src="/images/SandlewoodSoap.webp" alt="Soap"
+                  width={1200}
+                  height={600}
+                  layout="responsive"
+                />
+              </div>
             </div>
-          </div>
         </section>
 
         <aside className="sidebar">
