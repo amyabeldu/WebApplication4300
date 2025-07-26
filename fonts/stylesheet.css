@@ -7,6 +7,6 @@
     font-display: swap;
 }
 
-h1 {
-    font-family: 'Courier New', Courier, monospace;
+body, h1 {
+    font-family: "Brittany Signature", serif;
 }

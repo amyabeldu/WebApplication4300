@@ -3,7 +3,7 @@ body {
     color: white;
 }
 body, h1 {
-    font-family: "Brittany Signature", serif;
+    font-family: "BrittanySignature", serif;
 }
 .hero .text h1 {
     font-family: 'BrittanySignature', cursive;
@@ -15,3 +15,16 @@ body, h1 {
     border-radius: 15px;
 }
 
+
+@font-face {
+    font-family: 'Brittany Signature';
+    /*src: url('./fonts/BrittanySignatureRegular.woff2') format('woff2'),*/
+    src: url('./fonts/BrittanySignatureRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.hero .text h1 {
+    font-family: "Brittany Signature", serif;
+}
