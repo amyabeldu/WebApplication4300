@@ -4,7 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Amy’s Endeavors</title>
-  <link rel="stylesheet" href="styles.css">  <style>
+  <link rel="stylesheet" href="styles.css">
+
+<!--  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">-->
+  <style>
+
+
     body {
       margin: 0;
       background-color: #2F4F4F; /* DarkSlateGray */
@@ -54,14 +59,18 @@
     }
 
     .hero .text h1 {
-      font-family: 'Great Vibes', cursive;
-      font-size: 3rem;
+      /*font-family: 'Great Vibes', cursive;*/
+      font-size: 5rem;
       background-color: #4B2E1C;
       color: #FFEFD5;
       display: inline-block;
-      padding: 0.5rem 1rem;
-      border-radius: 15px;
+      text-align: center;
+      padding: 0.5rem 0.5rem;
+      border-radius: 20px;
     }
+
+
+
 
     .hero .text p {
       margin-top: 1rem;
@@ -99,6 +108,8 @@
       border-radius: 12px;
     }
 
+
+
     .product-card p {
       margin-top: 0.5rem;
       font-weight: bold;
@@ -112,9 +123,15 @@
     }
 
     .collections h2 {
-      font-family: 'Great Vibes', cursive;
-      font-size: 2.5rem;
+      /*font-family: 'Great Vibes', cursive;*/
+      font-size: 5rem;
       color: #4B2E1C;
+    }
+
+    .collections h2 {
+      font-family: 'Brittany Signature';
+      font-weight: normal;
+      font-style: normal;
     }
 
     /* Responsive */
@@ -169,12 +186,17 @@
 <!-- Main Layout -->
 <div class="main-content">
   <!-- Hero Section -->
-  <section class="hero">
+  <section class="hero" style="border: 80px solid rgb(136, 159, 159);">
     <div class="text">
-      <h1 style="font-family: 'BrittanySignature', cursive;">Amy’s Endeavors</h1>
+      <div style="display: flex; align-items: center; justify-content: center;">
+
+        <h1>Amy’s Endeavors</h1>
+      </div>
 
 
-      <p>Handmade soaps and handmade gifts for anyone special.</p>
+      <div style="display: flex; align-items: center; justify-content: center;">
+        <p>Handmade soaps and handmade gifts for anyone special.</p>
+      </div>
     <div class="image">
       <img src="images/SandlewoodSoap.webp" alt="Soap" />
     </div>
@@ -206,5 +228,10 @@
   <h2>Collections</h2>
 </section>
 
+<section class="test">
+  <div style="width: 100%; border: 20px solid black;">
+    <h1>Testing</h1>
+  </div>
+</section>
 </body>
 </html>
