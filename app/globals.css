@@ -104,7 +104,7 @@ nav a {
 
 .hero {
   background-color: #DCCEB4;
-  border: 80px solid rgb(136, 159, 159);
+  border: 60px solid rgb(136, 159, 159);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
