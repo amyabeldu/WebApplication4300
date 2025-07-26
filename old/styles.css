@@ -19,7 +19,7 @@ body, h1 {
 @font-face {
     font-family: 'Brittany Signature';
     /*src: url('./fonts/BrittanySignatureRegular.woff2') format('woff2'),*/
-    src: url('./fonts/BrittanySignatureRegular.woff') format('woff');
+    src: url('fonts/BrittanySignatureRegular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
